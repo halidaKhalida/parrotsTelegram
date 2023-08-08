@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <TextView
+            android:id="@+id/tv_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2E4C56"
+            android:text="Your phone number"
+            android:layout_marginTop="100dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2E4C56"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="hdfhdfhfd hgfdh ghfff rtyhrtyryrr\n        fddfhftfd thftryhrtfyhtrr "
+            android:textSize="17sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="350dp"
+            android:background="@drawable/get_start"
+            android:layout_weight="5">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/flaguzb"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="Uzb"
+                android:gravity="center|left"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="170dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="4">
+                <EditText
+                    android:layout_width="360dp"
+                    android:layout_height="60dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="phone"
+                    android:background="@drawable/get_start"
+                    android:text="+998"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/b_strelka"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="67dp"
+                    android:text="->"
+                    android:textSize="25sp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/lineeeie"
+                    app:backgroundTint="@null"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

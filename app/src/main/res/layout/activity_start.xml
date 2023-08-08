@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.4">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/telegraogo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/thirdpage_layout"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/thirdpage_layout"
+            android:gravity="center|top"
+            android:layout_weight="1.7">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2E4C56"
+                android:text="Telegram"
+                android:textSize="30sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#2E4C56"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="hdfhdfasdasdasdasdasdas rtyhrtyryrr\nfddfhftfd thftryhrtfyhtrr "
+                    android:textSize="17sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|top"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/iv_circle1"
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/baseline_circle_24"/>
+                <ImageView
+                    android:id="@+id/iv_circle2"
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/baseline_circle2"/>
+                <ImageView
+                    android:id="@+id/iv_circle3"
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/baseline_circle2"/>
+                <ImageView
+                    android:id="@+id/iv_circle4"
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/baseline_circle2"/>
+                <ImageView
+                    android:id="@+id/iv_circle5"
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/baseline_circle2"/>
+                <ImageView
+                    android:id="@+id/iv_circle6"
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/baseline_circle2"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/white">
+            <Button
+                android:id="@+id/b_start"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:background="@drawable/getstart_button"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                app:backgroundTint="@null"
+                android:text="Start Message"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
